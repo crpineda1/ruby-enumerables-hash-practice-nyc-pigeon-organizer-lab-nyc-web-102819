@@ -17,7 +17,7 @@ new_hash = {}
             new_hash[name][key] = []
 
           end
-            binding.pry
+            new_hash[name][key] << new_value.to_s
       end
 
     end
